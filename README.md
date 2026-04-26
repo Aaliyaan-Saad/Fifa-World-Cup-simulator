@@ -5,6 +5,13 @@ A C++ console-based World Cup simulator that recreates a 32-team FIFA World Cup-
 The simulator uses team ratings, form multipliers, probability-based goal generation, and penalty shootouts to make each tournament run feel different.
 
 ---
+## Group Members
+
+| Name | Student ID |
+|---|---|
+| Aaliyaan Saad | 25K-0661 |
+
+---
 
 ## Features
 
@@ -162,6 +169,30 @@ Champion: Argentina
 ```
 
 Because the simulator uses randomness, every run can produce different results.
+
+---
+## Use Cases of the System
+
+1. **Start the World Cup simulation**  
+   The user can begin the tournament simulation by pressing `y` when prompted.
+
+2. **Simulate group stage matches**  
+   The system automatically simulates all matches in each group and displays the match results.
+
+3. **Display group tables**  
+   The user can choose to display the final standings of each group, including points, goal difference, goals scored, and form.
+
+4. **Identify qualified teams**  
+   The system selects the top two teams from each group based on points, goal difference, and goals scored.
+
+5. **Simulate knockout rounds**  
+   The user can proceed to simulate the knockout stage, including Round of 16, Quarterfinals, Semifinals, and Final.
+
+6. **Decide knockout winners through penalties**  
+   If a knockout match ends in a draw, the system uses a penalty shootout to decide the winner.
+
+7. **Declare the tournament champion**  
+   After all knockout rounds are completed, the system displays the final World Cup champion.
 
 ---
 
